@@ -55,6 +55,7 @@ jobs:
         retention-days: 90
 
   docker:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       -
