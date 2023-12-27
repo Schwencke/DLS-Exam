@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM eclipse-temurin:17-jdk-jammy
 LABEL authors="Thomas"
 
 WORKDIR /app
